@@ -6,7 +6,7 @@ Application that works on both web and mobile devices to view take home pay afte
 
 The app is built using AngularJs v1.6.1 which makes use of the SailsJs api.
 
-The frontend repo is located in the ```./assets/client``` folder. This predisposes a scenario in which the backend and frontend repo are individual. In such case, the developers are allowed to work freely without interfering with each other. In a perfect scenario the ```./assets/client``` will be populated with the help of *git submodules*.
+The frontend repo is located in the ```./assets/client``` folder. This suggests a scenario in which the backend and frontend repo are individual. In such case, the developers are allowed to work freely without interfering with each other. In a perfect scenario the ```./assets/client``` will be populated with the help of *git submodules*.
 
 ### Installing and running the app
 
