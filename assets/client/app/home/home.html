@@ -1,0 +1,29 @@
+<section class="main-container">
+    <h1 class="title font-xlg">Fourth app</h1>
+    <autocomplete-component employees="vm.employees"></autocomplete-component>
+    <table>
+        <thead class="font-xs">
+            <tr>
+                <th ng-repeat="header in vm.headers">{{header}}</th>
+            </tr>
+        </thead>
+        <tbody class="font-sm">
+            <tr ng-repeat="employee in vm.searchedEmployee">
+                <td ng-repeat="(key, value) in employee">{{value}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="employees-small font-sm">
+        <div ng-repeat="employee in vm.searchedEmployee" class="employees-small-container">
+            <div ng-repeat="(key, value) in employee" class="flex align-center justify-center">
+                <span class="employees-small-headers flex">{{vm.headers[$index]}}</span>
+                <span>{{value}}</span>
+            </div>
+        </div>
+    </div>
+    <section class="totals font-sm">
+        <div>Total annual take home: <span class="total-numbers">{{vm.totalTakeHome}}</span></div>
+        <div>Total annual income tax: <span class="total-numbers">{{vm.totalIncomeTax}}</span></div>
+        <div>Total annual national insurance: <span class="total-numbers">{{vm.totalNationalInsurance}}</span></div>
+    </section>
+</section>

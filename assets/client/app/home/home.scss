@@ -1,0 +1,72 @@
+.title {
+    margin: 20px 0;
+}
+.main-container {
+    width: 100%;
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
+        margin-bottom: 20px;
+    
+        thead {
+            border-bottom: 1px solid rgba(0,0,0,.12);
+            color: rgba(0,0,0,.54);
+    
+            tr {
+                th {
+                    padding: 15px 10px;
+                }
+            }
+        }
+    
+        tbody {
+            background-color: white;
+            tr {
+                td {
+                    padding: 10px;
+                }
+            }
+        }
+
+        @media all and (max-width: 860px) {
+            display: none;
+        }
+    }
+}
+
+.employees-small {
+    display: none;
+    margin-bottom: 20px;
+    background-color: white;
+
+    @media all and (max-width: 860px) {
+        display: block;
+    }
+}
+
+.employees-small-container {
+    box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
+    margin-bottom: 10px;
+}
+
+.employees-small-headers {
+    color: rgba(0,0,0,.54);
+    padding: 5px;
+}
+
+.totals {
+    background-color: white;
+    box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
+
+    div {
+        margin-bottom: 10px;
+        padding: 10px;
+
+        .total-numbers {
+            color: rgba(0,0,0,.54);
+            font-weight: bold;
+        }
+    }
+}

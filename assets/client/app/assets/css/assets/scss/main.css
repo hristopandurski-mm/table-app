@@ -1,0 +1,20 @@
+/*Generate font sizes*/
+.font-xs {
+  font-size: 12px;
+}
+
+.font-sm {
+  font-size: 14px;
+}
+
+.font-md {
+  font-size: 18px;
+}
+
+.font-lg {
+  font-size: 23px;
+}
+
+.font-xlg {
+  font-size: 30px;
+}
