@@ -16,7 +16,7 @@ The frontend repo is located in the ```./assets/client``` folder. This predispos
 
   `npm install`
 
-NB: SailsJs might not work on Node 4.0.0. In this case run ```npm install -g sails@~0.12.13```.
+NB: SailsJs might not work on Node 4.0.0 or bigger. In this case run ```npm install -g sails@~0.12.13```.
 
 * Install frontend NPM dependencies:
 
